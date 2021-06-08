@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.64);
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+img {
+    width: 3.5rem;
+    margin-top: 10px;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(211, 211, 211);
+    margin-left: 30px;
+}
+
+.checkout{
+    display: none;
+}
+
+.navbar-class {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+table {
+position: absolute;
+top: 25%;
+left: 10%;
+
+}
+
+#student {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+#student tbody td, #student thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#student tr:nth-child(even){background-color: #f2f2f2;}
+#student tr:nth-child(odd){background-color: #a9a6a6;}
+  
+#student tr:hover {background-color: #ddd;}
+  
+#student th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(53, 90, 12);
+    color: white;
+  }

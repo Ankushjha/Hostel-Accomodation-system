@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+}
+
+.division {
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    flex-direction: column;
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+    top: 50%;
+    left: 37.5%;
+    transform: translate(-20%, -50%);
+}
+
+h1 {
+    margin: 2rem 0 2rem 0;
+    font-size: 3rem;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    outline: none;
+    margin: 0.75rem;
+    padding: 0.4rem;
+    font-size: 15px;
+}
+
+input:focus{
+    background-color: rgba(187, 212, 220, 0.938);
+}
+
+input[type=text]{
+    width: 80%;
+}
+
+input[type=email] {
+    width: 80%;
+}
+
+input[type=date] {
+    width: 73.2%;
+}
+
+input[type=password] {
+    width: 80%;
+}
+
+input[type=submit] {
+    border-radius: 7px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.3rem 1.5rem;
+    margin: 1rem 63.5% 4rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.544);
+}
+
+input[type=submit]:hover{
+box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 70), 
+            inset 2px 2px 5px rgba(255, 255, 255, 90);
+}

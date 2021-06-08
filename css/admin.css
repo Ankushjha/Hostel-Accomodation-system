@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../images/room.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.name{
+    color: rgb(211, 211, 211);
+    float: right;
+    margin: 1.5rem 2.5rem 0 0;
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0.64);
+    text-decoration: none;
+    font-size: 2rem;
+    overflow: auto;
+}
+
+img {
+    width: 3.5rem;
+    margin-top: 10px;
+}
+
+.navbar-content a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(211, 211, 211);
+    margin-left: 30px;
+    text-transform: uppercase;
+}
+
+.navbar-class {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+#admin {
+position: absolute;
+top: 25%;
+left: 10%;
+font-family: Arial, Helvetica, sans-serif;
+border-collapse: collapse;
+width: 80%;
+
+}
+
+#bulkOptionsContainer {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+#bulkOptionsContainer select{
+    padding: 0.4rem;
+    padding-inline: 7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+#btnApply {
+    position: absolute;
+    top: 20%;
+    left: 32.5%;
+}
+
+.btn {
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 0.45rem 1rem;
+    color: white;
+    font-weight: bold;
+    border: 1px solid #023208;
+    background-color: #449d44;
+}
+
+.btn:hover {
+    box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 70), 
+                inset 2px 2px 5px rgba(255, 255, 255, 90);
+}
+
+  
+#admin tbody td, #admin thead th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+#admin tr:nth-child(even){background-color: #f2f2f2;}
+#admin tr:nth-child(odd){background-color: #a9a6a6;}
+  
+#admin tr:hover {background-color: #ddd;}
+  
+#admin th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(53, 90, 12);
+    color: white;
+  }
+
+
+
+  .create{
+    width: 50%;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+    box-shadow: 4px 4px 15px rgba(255, 255, 255, 0.5);
+
+    position: absolute;
+    top: 57.5%;
+    left: 35%;
+    transform: translate(-20%, -50%);
+}
+
+.form {
+    padding: 0 3rem;
+}
+
+.para {
+    background-color: #ccc;
+    font-size: 1.24rem;
+}
+
+.h1 {
+    margin: 1rem 0 1rem 0;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.label {
+    font-size: 20px;
+}
+
+.input, .select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    outline: none;
+    margin: 0.75rem;
+    padding: 0.4rem;
+    font-size: 15px;
+}
+
+.input:focus{
+    background-color: rgba(187, 212, 220, 0.938);
+}
+
+input[type=number], .select{
+    width: 100%;
+}
+
+.btn_submit {
+    border-radius: 7px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0.3rem 1.5rem;
+    margin: 1rem 63.5% 2.5rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.544);
+}
+
+.btn_submit:hover{
+box-shadow: inset -3px -3px 5px rgba(0, 0, 0, 70), 
+            inset 2px 2px 5px rgba(255, 255, 255, 90);
+}

@@ -29,9 +29,6 @@ img {
     margin-left: 30px;
 }
 
-.checkout{
-    display: none;
-}
 
 .navbar-class {
     display: flex;
@@ -39,7 +36,7 @@ img {
     margin-left: 30px;
 }
 
-table {
+#student {
 position: absolute;
 top: 25%;
 left: 10%;

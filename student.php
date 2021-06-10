@@ -22,6 +22,7 @@
                 <div class="navbar-content">
                     <a class="checkin" href="#">Check In</a>
                     <a class="checkout" href="#">Check Out</a>
+                    <a style="font-size: 1.25rem;" class="checkout" href="">Student Checked In: </a>
                 </div>
             </div>
 
@@ -63,7 +64,7 @@
 
     </div>
 
-    <script>
+    <!-- <script>
     const checkIn = document.querySelectorAll('.checkin');
         const checkOut = document.querySelectorAll('.checkout');
         
@@ -77,6 +78,8 @@
             checkIn.style.display="inherit";
         })
         
-        </script>
+        </script> -->
+
+
 </body>
 </html>

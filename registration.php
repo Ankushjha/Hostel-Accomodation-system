@@ -48,7 +48,7 @@
                 die("QUERY FAILED ". mysqli_error($connection). ' ' . mysqli_errno($connection));
             }
     
-            $message = "Your Registration has been submitted";
+            $message = "Your Registration has been submitted!! Go to <a href='index.php'>Login in Page <a>";
 
         } else {
 
@@ -65,7 +65,7 @@
 
 
                 <form action="registration.php" method="POST" id="signup-form">
-                    <h4><?php echo $message; ?></h4>
+                    <h4 style = 'background-color: teal;'><?php echo $message; ?></h4>
                     <input type="text" name="firstname" placeholder="First Name*" required>
                     <input type="text" name="lastname" placeholder="Last Name*" required>
                     <input type="email" name="email" placeholder="Your Email*" required>
